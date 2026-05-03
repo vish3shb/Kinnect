@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #030305; /* Deep space black */
+  --glass: rgba(255, 255, 255, 0.03);
+  --glass-hover: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --accent: #8b5cf6; /* Violet 500 */
+  --accent-glow: rgba(139, 92, 246, 0.4);
+}
+
+body {
+  background-color: var(--background);
+  color: #f8fafc;
+  background-image: 
+    radial-gradient(circle at 15% 10%, rgba(139, 92, 246, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 85% 90%, rgba(6, 182, 212, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(3, 3, 5, 1) 50%, transparent 100%);
+  background-attachment: fixed;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(2deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; filter: blur(40px); }
+  50% { opacity: 0.8; filter: blur(60px); }
+}
+
+.noise {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.05;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Custom Scrollbar - Ultra minimal */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.4);
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-glass backdrop-blur-2xl border border-glass-border rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden;
+    position: relative;
+  }
+  
+  .glass-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), transparent, rgba(139,92,246,0.1));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+  
+  .glass-button {
+    @apply relative overflow-hidden bg-glass hover:bg-white/10 backdrop-blur-md border border-glass-border rounded-2xl transition-all duration-300 shadow-lg;
+  }
+
+  .logo-container {
+    @apply w-20 h-20 md:w-24 md:h-24 mb-6 md:mb-8 rounded-3xl p-1 relative flex items-center justify-center;
+    background: linear-gradient(to top right, rgba(139, 92, 246, 0.4), rgba(14, 165, 233, 0.4));
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.2);
+  }
+
+  .logo-glow {
+    @apply absolute inset-0 blur-2xl rounded-full;
+    background-color: rgba(139, 92, 246, 0.2);
+    animation: pulse-glow 4s ease-in-out infinite;
+  }
+}
