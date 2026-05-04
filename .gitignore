@@ -14,8 +14,6 @@ __pycache__/
 
 # Database & Exports
 kinnect.db
-backend/exported_data/
-*.csv
 
 # Build outputs
 .next/

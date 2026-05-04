@@ -1,0 +1,28 @@
+id,user_id,activity_id,type,message,is_read,created_at
+4cf3c1cd-c355-43d1-b484-760b35b4440a,d0f03efc-c933-460e-9033-f9fa628badcb,827f2b25-c11d-427b-8d2c-21be0707b39d,request_rejected,"Your request to join ""CCD"" was declined",0,2026-05-02 10:29:50.288820
+76b77596-0490-4c16-a1e3-92637df87b44,d0f03efc-c933-460e-9033-f9fa628badcb,3429c04a-0725-4e58-8da0-b9bbf57fd7a8,request_rejected,"Your request to join ""CCD"" was declined",0,2026-05-02 10:29:51.545415
+05e839ff-167b-442f-a595-108d82c6bf4b,d0f03efc-c933-460e-9033-f9fa628badcb,e2097234-f225-405a-b145-e47949b102f5,user_joined,"saurabh kumar joined ""Running""",0,2026-05-02 10:29:56.128391
+2ad1a771-1447-4fa9-9644-1be4d360229b,625692a6-77c2-47a6-8198-18fa196905a2,e2097234-f225-405a-b145-e47949b102f5,user_joined,"saurabh kumar joined ""Running""",0,2026-05-02 10:29:56.128391
+35515c98-44b0-4ce8-9242-0e946098a6d1,d0f03efc-c933-460e-9033-f9fa628badcb,e2097234-f225-405a-b145-e47949b102f5,new_message,Someone texted you in 'Running',0,2026-05-02 12:44:48.953987
+ec98eb69-7211-4fd2-ad4a-dc2fd241fd26,625692a6-77c2-47a6-8198-18fa196905a2,e2097234-f225-405a-b145-e47949b102f5,new_message,Someone texted you in 'Running',0,2026-05-02 12:44:48.961103
+a9a92aef-5c44-4a97-a8ed-623854e528a7,8ab3754c-aa10-4182-b46a-02c04d42c8f3,0d579d58-4857-4ad5-954d-44a9fa32c492,join_request,"saurabh kumar wants to join ""doaa?""",1,2026-05-03 07:34:04.184016
+07a18c86-fa4f-4450-a7ad-2c170b4e9250,8ab3754c-aa10-4182-b46a-02c04d42c8f3,,friend_request,saurabh kumar sent you a friend request,1,2026-05-03 07:39:43.932526
+4da2a3e6-7343-41dd-aa42-3ef769eb9ad6,8ab3754c-aa10-4182-b46a-02c04d42c8f3,0d579d58-4857-4ad5-954d-44a9fa32c492,join_request,"Vishesh Bhardwaj wants to join ""doaa?""",0,2026-05-03 08:01:28.767943
+543743af-bdef-4e0c-a274-7d6afe4cc243,8ab3754c-aa10-4182-b46a-02c04d42c8f3,0d579d58-4857-4ad5-954d-44a9fa32c492,join_request,"Himanshu Singh wants to join ""doaa?""",0,2026-05-03 08:32:58.527168
+348ba738-d92d-455d-bde3-78803b2212ea,8ab3754c-aa10-4182-b46a-02c04d42c8f3,0d579d58-4857-4ad5-954d-44a9fa32c492,new_message,saurabh kumar texted you in 'doaa?',0,2026-05-03 08:33:34.779768
+50c198c3-8ffa-45d7-a0f4-7ccd1436746e,ffc329cd-2717-4402-9888-ee0c38910163,b05106bc-1a80-4be9-880b-85eea133a040,user_joined,"saurabh kumar joined ""Swimming""",0,2026-05-03 08:35:57.091547
+77a71052-720e-47e3-830a-38b82d2b71c0,ffc329cd-2717-4402-9888-ee0c38910163,b05106bc-1a80-4be9-880b-85eea133a040,new_message,saurabh kumar texted you in 'Swimming',0,2026-05-03 09:04:06.622583
+9d71792e-fe98-4365-8e8d-fb0b91a7a7d5,ffc329cd-2717-4402-9888-ee0c38910163,b05106bc-1a80-4be9-880b-85eea133a040,user_joined,"Aditya joined ""Swimming""",0,2026-05-03 08:48:51.103676
+023f7d83-1ed1-4a12-ae65-a6c4f0734922,ffc329cd-2717-4402-9888-ee0c38910163,,friend_request,saurabh kumar sent you a friend request,0,2026-05-03 08:51:50.399636
+51f7a1bc-96d0-404a-b6f6-09941016f77a,625692a6-77c2-47a6-8198-18fa196905a2,,sos_alert,SOS::a1318adb-f73c-4d63-b599-170ce6c5a871::saurabh kumar::Hall 6 back gate::26.51248::80.23413,0,2026-05-03 08:52:09.687235
+6f77bd4e-4069-44dc-b71a-0206b7ac25a2,d0f03efc-c933-460e-9033-f9fa628badcb,,sos_alert,SOS::a1318adb-f73c-4d63-b599-170ce6c5a871::saurabh kumar::Hall 6 back gate::26.51248::80.23413,0,2026-05-03 08:52:09.687235
+1c1ecf43-5b56-4e6a-98c8-919bccef460a,8ab3754c-aa10-4182-b46a-02c04d42c8f3,,sos_alert,SOS::a1318adb-f73c-4d63-b599-170ce6c5a871::saurabh kumar::Hall 6 back gate::26.51248::80.23413,0,2026-05-03 08:52:09.687235
+1963f64f-a40c-46b8-b12b-98c6ee76f887,eb9bab83-9852-4f9d-8781-9fd61e10c303,,sos_alert,SOS::a1318adb-f73c-4d63-b599-170ce6c5a871::saurabh kumar::Hall 6 back gate::26.51248::80.23413,0,2026-05-03 08:52:09.687235
+e501762b-a02c-4c2f-a2d5-d6ab93bc9227,ffc329cd-2717-4402-9888-ee0c38910163,,sos_alert,SOS::a1318adb-f73c-4d63-b599-170ce6c5a871::saurabh kumar::Hall 6 back gate::26.51248::80.23413,1,2026-05-03 08:52:09.687235
+0a725af4-2e55-4b05-9ca5-620d4e205e40,fbf5eeb4-2d57-4506-ab97-5638ef221f5e,,friend_request,saurabh kumar sent you a friend request,0,2026-05-03 08:54:16.942171
+5b81a94f-4f4a-430e-aa13-72dc92d3b4a6,fbf5eeb4-2d57-4506-ab97-5638ef221f5e,b05106bc-1a80-4be9-880b-85eea133a040,new_message,saurabh kumar texted you in 'Swimming',0,2026-05-03 09:04:06.618514
+70144c9d-2e86-44bd-8ad1-9635917ace78,ffc329cd-2717-4402-9888-ee0c38910163,52940f07-4ff5-4500-93db-157c9634a212,user_joined,"Dhananjay dixit joined ""Running """,0,2026-05-03 09:27:10.043119
+d26c4dbb-5abd-4f21-9a10-08d2787757a2,cd5b2bc1-b928-4c34-96ed-9a2eb87501ad,52940f07-4ff5-4500-93db-157c9634a212,user_joined,"Dhananjay dixit joined ""Running """,0,2026-05-03 09:27:10.043119
+dcaaeda3-7237-43bd-8077-10e752957fe5,cd5b2bc1-b928-4c34-96ed-9a2eb87501ad,b05106bc-1a80-4be9-880b-85eea133a040,user_joined,"Dhananjay dixit joined ""Swimming""",0,2026-05-03 09:27:20.330612
+f0bfd23c-fd5d-4b9c-bed6-caeecfdffd02,fbf5eeb4-2d57-4506-ab97-5638ef221f5e,b05106bc-1a80-4be9-880b-85eea133a040,user_joined,"Dhananjay dixit joined ""Swimming""",0,2026-05-03 09:27:20.330612
+e7c6fc23-0fb2-4f99-af11-0c245eefc5a8,ffc329cd-2717-4402-9888-ee0c38910163,b05106bc-1a80-4be9-880b-85eea133a040,user_joined,"Dhananjay dixit joined ""Swimming""",0,2026-05-03 09:27:20.330612
